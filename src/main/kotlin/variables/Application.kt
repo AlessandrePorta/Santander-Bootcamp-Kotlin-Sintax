@@ -5,6 +5,7 @@ const val currentAge3 = 90
 
 fun main(){
     //Valor mutavel, camel case
+    //o '?' significa que o valor pode ser inteiro ou nulo
     var currentAge1:Int?
     currentAge1 = 90
     println(currentAge1)
