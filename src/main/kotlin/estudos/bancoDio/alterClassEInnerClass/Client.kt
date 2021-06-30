@@ -1,4 +1,4 @@
-package estudos.alterClassEInnerClass
+package estudos.bancoDio.alterClassEInnerClass
 
 //alter class
 class Client {
