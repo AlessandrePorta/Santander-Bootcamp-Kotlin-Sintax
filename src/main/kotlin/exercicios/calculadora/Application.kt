@@ -35,4 +35,5 @@ sealed class Operacao(val texto:String){
     object Divisao:Operacao("Divisão")
     object Resto:Operacao( "Resto")
     object Potencia:Operacao("Potência")
+
 }
