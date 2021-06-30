@@ -1,4 +1,4 @@
-package entities
+package estudos.alterClassEInnerClass
 
 //alter class
 class Client {
