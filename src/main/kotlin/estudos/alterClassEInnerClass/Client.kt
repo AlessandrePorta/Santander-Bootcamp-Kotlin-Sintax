@@ -12,6 +12,9 @@ class Client {
         var rua: String = "Rua teste, 123"
     }
      */
+    constructor()
+
+    fun infPessoa() = "Nome: $nome e Cpf: $cpf"
 }
 
 fun main(){
@@ -19,5 +22,6 @@ fun main(){
 
     println(alessandre.nome)
     println(alessandre.cpf)
+    println(alessandre.infPessoa())
     //println(alessandre.Endereco().rua)  para acessar a inner classe
 }
