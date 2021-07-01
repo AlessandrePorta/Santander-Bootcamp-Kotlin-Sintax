@@ -1,17 +1,15 @@
 package estudos.bancoDio.cliente
 
+import estudos.bancoDio.login.TesteAutenticacao
+
 fun main(){
-    ClienteTipo.values().forEach { elemento ->
-        println("${elemento.name} - ${elemento.s}")
-    }
+    val ale = Cliente(
+        "Alessandre",
+        "123.123.123-20",
+        ClienteTipo.PF,
+        senha = "123"
+    )
+    println(ale)
 
-    ClienteTipo.values().forEach {
-        println("${it.name} - ${it.s}")
-    }
-
-    val pf = ClienteTipo.PF
-    println("${pf.name} - ${pf.s}")
-
-    val pj = ClienteTipo.PJ
-    println(">> ${pj.name} - ${pj.s}")
+    TesteAutenticacao().autentica(ale)
 }

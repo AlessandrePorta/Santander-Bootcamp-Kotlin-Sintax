@@ -1,5 +1,10 @@
 package estudos.bancoDio.funcionario
 
-class Gerente(nome: String, cpf: String, salario: Double): Funcionario(nome = nome, cpf = cpf, salario = salario) {
+import estudos.bancoDio.login.Login
+
+class Gerente(nome: String, cpf: String, salario: Double, val senha: String): Funcionario(nome = nome, cpf = cpf, salario = salario),
+    Login {
     override fun auxilio(): Double = salario * 0.4
+
+    override fun autenticacao(): Boolean = "123" == senha
 }
