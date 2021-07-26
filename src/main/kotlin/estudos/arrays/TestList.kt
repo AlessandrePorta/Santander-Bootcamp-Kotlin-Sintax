@@ -10,7 +10,10 @@ fun main() {
     funcionarios.forEach { println(it) }
 
     println("---------------------")
-    println(funcionarios.find{it.nome == "Maria"})
+    println(funcionarios.find { it.nome == "Maria" })
+
+    println("----------------------")
+    funcionarios.sortedBy { it.salario }.forEach { println(it) }
 }
 
 class Funcionario(
