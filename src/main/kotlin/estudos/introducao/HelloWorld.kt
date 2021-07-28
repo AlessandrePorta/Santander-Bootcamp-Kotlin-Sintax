@@ -1,5 +1,5 @@
 package estudos.introducao
 
-fun main(){
+fun main() {
     println("Hello World")
 }

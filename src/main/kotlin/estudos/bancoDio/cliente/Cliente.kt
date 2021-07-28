@@ -7,13 +7,13 @@ class Cliente(
     nome: String,
     cpf: String,
     val clienteTipo: ClienteTipo,
-    val senha: String): Pessoa(nome, cpf), Login
-    {
-        override fun autenticacao(): Boolean = "123" == senha
+    val senha: String
+) : Pessoa(nome, cpf), Login {
+    override fun autenticacao(): Boolean = "123" == senha
 
-        override fun toString(): String = """
+    override fun toString(): String = """
             Nome: $nome
             Cpf: $cpf
             Salario: $clienteTipo
             """.trimIndent()
-    }
+}

@@ -1,6 +1,6 @@
 package estudos.arrays
 
-fun main(){
+fun main() {
     val Joao = Funcionario("Joao", 1000.0, "CLT")
     val Gabriel = Funcionario("Gabriel", 2000.0, "PJ")
     val Maria = Funcionario("Maria", 3000.0, "CLT")

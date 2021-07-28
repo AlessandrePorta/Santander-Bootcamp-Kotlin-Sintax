@@ -1,6 +1,6 @@
 package estudos.emptyXblank
 
-fun main(){
+fun main() {
 
     val s = ""
 

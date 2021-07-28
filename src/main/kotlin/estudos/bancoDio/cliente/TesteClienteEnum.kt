@@ -2,7 +2,7 @@ package estudos.bancoDio.cliente
 
 import estudos.bancoDio.login.TesteAutenticacao
 
-fun main(){
+fun main() {
     val ale = Cliente(
         "Alessandre",
         "123.123.123-20",

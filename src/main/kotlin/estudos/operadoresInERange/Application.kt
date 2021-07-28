@@ -3,9 +3,9 @@ package estudos.operadoresInERange
 const val MIN_AGE = 10
 const val MAX_AGE = 60
 
-fun main(){
+fun main() {
 
-    val lista = listOf(1,3,4,6,8,9,11,12,13,15,17,18,19,22,23,24,25,32,34)
+    val lista = listOf(1, 3, 4, 6, 8, 9, 11, 12, 13, 15, 17, 18, 19, 22, 23, 24, 25, 32, 34)
     var numero = (1..34).random()
 
     println(numero)

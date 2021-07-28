@@ -1,6 +1,6 @@
 package estudos.estruturasDeRepeticao
 
-fun main(){
+fun main() {
     for (i in 0..20)
         print("$i ")
 
@@ -17,30 +17,30 @@ fun main(){
     letters()
 }
 
-fun downTo(){
-    for(i in 20 downTo 0){
+fun downTo() {
+    for (i in 20 downTo 0) {
         print("$i ")
     }
 }
 
-fun until(){
-    for(i in 0 until 20){
+fun until() {
+    for (i in 0 until 20) {
         print("$i ")
     }
 }
 
-fun step(num:Int){
-    for(i in 0..20 step num){
+fun step(num: Int) {
+    for (i in 0..20 step num) {
         print("$i ")
     }
 }
 
-fun letters(){
+fun letters() {
     val sArray = "Olha essa String!"
-    for(l in sArray){
+    for (l in sArray) {
         println(l.toUpperCase())
     }
     //ou
 
-    sArray.forEach{a -> print(a + " ")}
+    sArray.forEach { a -> print(a + " ") }
 }
