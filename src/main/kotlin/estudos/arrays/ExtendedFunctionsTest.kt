@@ -14,4 +14,5 @@ fun main() {
 
     println("---------------------")
     println(salarios.media())
+
 }
